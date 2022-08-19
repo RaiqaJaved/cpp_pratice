@@ -1,0 +1,13 @@
+# include<iostream>
+using namespace std;
+int main()
+{
+	int value=1;
+	cout<<"Please entr a value\n";
+	cin>>value;
+	
+	for(value=1; value<=10; value++)
+	{
+		cout<<"2x"<<value<<"="<<value*2<<endl;
+	 } 
+}
